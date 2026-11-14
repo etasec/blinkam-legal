@@ -54,6 +54,11 @@
         They receive what they need to show the map and find places.
       </li>
       <li>
+        If you turn on the simulated drive (a demo), your last position and the
+        demo cameras on the way go to an OpenStreetMap route server to find
+        real roads.
+      </li>
+      <li>
         To get app updates, newer versions of Blinkam ask Expo's update server
         for new app code. This sends a random install ID, never your location
         or reports.
@@ -120,6 +125,18 @@
         place, or when the app shows the name of the area you are in, the text
         you type or the map position is sent to your phone's built-in place
         lookup service (Google on Android, Apple on iPhone).
+      </li>
+      <li>
+        <strong>Roads for the simulated drive:</strong> only when you turn on
+        <strong>Home → Settings → Demo → Simulated drive</strong>, Blinkam
+        sends your last known position and the positions of the demo cameras on
+        the way to the free OpenStreetMap route server of FOSSGIS e.V.
+        (Germany), to find a route along real roads. Like any internet request,
+        this includes your IP address. FOSSGIS saves route requests in its
+        server log:
+        <a href="https://www.fossgis.de/datenschutzerkl%C3%A4rung/"
+          >FOSSGIS privacy policy (German)</a
+        >.
       </li>
       <li>
         <strong>App updates:</strong> versions of Blinkam released after 14
